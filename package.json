@@ -1,0 +1,16 @@
+{
+  "name": "weather-widget",
+  "version": "0.1.1",
+  "description": "A simple weather widget.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Metcalf",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}

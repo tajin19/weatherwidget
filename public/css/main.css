@@ -1,0 +1,89 @@
+#weatherWidget
+{
+    box-sizing: border-box;
+    width: 310px;
+    height: 160px;
+    /*center in viewport*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -155px;
+    border: 1px solid #B1AFB1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #000000;
+    overflow: hidden;
+}
+
+#weatherWidget .title
+{
+    height: 28px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#weatherWidget .mainRow
+{
+    height: 40px;
+}
+
+#weatherWidget .mainRow > div
+{
+    float: left;
+    clear: none;
+    height: inherit;
+}
+
+#weatherWidget .mainRow .temperature
+{
+    font-size: 61px;
+}
+
+#weatherWidget .mainRow .icon
+{
+    text-align: center;
+    font-size: 12px;
+    margin-top: -6px;
+    margin-left: 6px;
+    line-height: 0.3;
+}
+
+#weatherWidget .forecastRow
+{
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    left: 0;
+    height: 42px;
+    font-size: 12px;
+}
+
+#weatherWidget .forecastRow > div
+{
+    float: left;
+    clear: none;
+    width: 60px;
+    height: inherit;
+    display: table;
+}
+
+#weatherWidget .forecastRow > div > p
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.borderRight
+{
+    border-right: 1px solid #B1AFB1;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak
+{
+    display: none !important;
+}
